@@ -3,22 +3,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+<%@include file ="header.jsp" %>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-<span id="click-me">Click to flip!</span>
+<span id="click-me"><b>소개하기 ↓클릭</b></span>
 <div class="container">
   <div class="card card-front">
     <div class="initials initial-1">&lt;L</div>
     <div class="initials initial-2">E</div>
     <div class="initials initials-3">S&gt;</div>
-    <div class="desc">Full Stack Web Developer</div>
+    <div class="desc"><b>I C U 사회복지학과 학회장</b></div>
+    
     <div class="twitter-front">
-      <a id="twitter-front" href="https://willalanjohnson.com" target="_blank">willalanjohnson.com</a>
+      <a id="twitter-front" href="https://www.naver.com" target="_blank"><img src="img/insta.png"/></a>
     </div>
+    <div class="twitter-front1">
+      <a id="twitter-front1" href="https://willalanjohnson.com" target="_blank"><img src="img/facebook.png"/></a>
+    </div>
+    
     <svg id="wave" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="480">
         <desc iVinci="yes" version="4.6" gridStep="20" showGrid="no" snapToGrid="no" codePlatform="0"/>
         <g id="Layer1" name="Layer 1" opacity="1">
@@ -46,6 +52,7 @@
             </g>
         </g>
     </svg>
+
   </div> 
   <div class="card card-back card-flip">
     <div class="initials initials-back">Will Johnson</div>

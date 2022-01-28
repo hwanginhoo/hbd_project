@@ -165,7 +165,7 @@
 </svg>
 <div class="text">
   <h1>happy birthday!</h1>
-  <button type="button" onClick="location.href='header.jsp'"><img src="custom-logwarning.gif" alt=""></button>
+  <button type="button" onClick="location.href='profile.jsp'"><img src="custom-logwarning.gif" alt=""></button>
 
 </div>
 </body>

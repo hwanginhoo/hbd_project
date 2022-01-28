@@ -9,6 +9,10 @@
 <link rel="stylesheet" href="header.css">
 </head>
 <body>
+<!--  <button type="button" onclikc="location.href='http://localhost:8080/hbd_test/index.jsp'">Back</button>-->
+<a href="http://localhost:8080/hbd_test/index.jsp">
+<input id="back" type="image" src="img/back.png">
+</a>
 <nav class="top-right open">
 	<a href="http://localhost:8080/hbd_test/letter.jsp" class="disc l1" >
 		<div>Letter</div>
@@ -25,7 +29,6 @@
 	<a class="disc l5 toggle">
 		Menu
 	</a>
-
 </nav>
 <script type="text/javascript">
 toggle = document.querySelectorAll(".toggle")[0];

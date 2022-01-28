@@ -16,7 +16,7 @@ body {
   background: white;
   height: 300px;
   width: 600px;
-  margin: 18em auto;
+  margin: 13em auto;
   border-radius: 0.2em;
   box-shadow: 0 2.5em 0.9em -2em #555;
   position: absolute;
@@ -85,11 +85,27 @@ hr {
 
 .twitter-front {
   width: 100%;
-  text-align: center;
-  margin-top: 1em;
+  text-align: left;
+  margin-top: 0.4em;
+  margin-left : 13em;
+  /*position: relative;*/
+  z-index: 2;
 }
 
 #twitter-front {
+  color: #09FC83;
+  text-decoration: none;
+}
+.twitter-front1 {
+  width: 100%;
+  text-align: center;
+  margin-top: -5.4em;
+  margin-left: 2.9em;
+  /*position: relative;*/
+  z-index: 2;
+}
+
+#twitter-front1 {
   color: #09FC83;
   text-decoration: none;
 }
@@ -143,8 +159,9 @@ hr {
 }
 
 #wave {
-  bottom: -1.8em;
+  bottom: 1.9em;
   position: relative;
+  z-index: 1;
 }
 
 #click-me {
